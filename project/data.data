@@ -1,0 +1,111 @@
+{
+    "Baku": {
+        "last_get": "2023-06-24T16:20:45.918161",
+        "weather_data": {
+            "coord": {
+                "lon": 49.892,
+                "lat": 40.3777
+            },
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 25.03,
+                "feels_like": 25.08,
+                "temp_min": 25.03,
+                "temp_max": 25.03,
+                "pressure": 1015,
+                "humidity": 57
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 8.23,
+                "deg": 10
+            },
+            "clouds": {
+                "all": 0
+            },
+            "dt": 1687612009,
+            "sys": {
+                "type": 1,
+                "id": 8841,
+                "country": "AZ",
+                "sunrise": 1687569065,
+                "sunset": 1687623256
+            },
+            "timezone": 14400,
+            "id": 587084,
+            "name": "Baku",
+            "cod": 200
+        },
+        "uv_data": {
+            "result": {
+                "uv": 1.9559,
+                "uv_time": "2023-06-24T13:20:47.586Z",
+                "uv_max": 9.9538,
+                "uv_max_time": "2023-06-24T08:43:58.217Z",
+                "ozone": 317.2,
+                "ozone_time": "2023-04-12T15:04:31.773Z",
+                "safe_exposure_time": {
+                    "st1": 85,
+                    "st2": 102,
+                    "st3": 136,
+                    "st4": 170,
+                    "st5": 273,
+                    "st6": 511
+                },
+                "sun_info": {
+                    "sun_times": {
+                        "solarNoon": "2023-06-24T08:43:58.217Z",
+                        "nadir": "2023-06-23T20:43:58.217Z",
+                        "sunrise": "2023-06-24T01:12:21.076Z",
+                        "sunset": "2023-06-24T16:15:35.359Z",
+                        "sunriseEnd": "2023-06-24T01:15:39.138Z",
+                        "sunsetStart": "2023-06-24T16:12:17.297Z",
+                        "dawn": "2023-06-24T00:39:11.587Z",
+                        "dusk": "2023-06-24T16:48:44.848Z",
+                        "nauticalDawn": "2023-06-23T23:56:58.926Z",
+                        "nauticalDusk": "2023-06-24T17:30:57.508Z",
+                        "nightEnd": "2023-06-23T23:07:23.797Z",
+                        "night": "2023-06-24T18:20:32.638Z",
+                        "goldenHourEnd": "2023-06-24T01:53:24.085Z",
+                        "goldenHour": "2023-06-24T15:34:32.350Z"
+                    },
+                    "sun_position": {
+                        "azimuth": 1.679436406324258,
+                        "altitude": 0.5274106948641759
+                    }
+                }
+            }
+        },
+        "output": {
+            "weather": {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            },
+            "main": {
+                "temp": 25.03,
+                "feels_like": 25.08,
+                "temp_min": 25.03,
+                "temp_max": 25.03,
+                "pressure": 1015,
+                "humidity": 57,
+                "date_time": "2023-06-24T16:20:45.918161",
+                "uv_index": 1.9559,
+                "uv_index_max": 9.9538
+            },
+            "wind": {
+                "speed": 8.23,
+                "deg": 10
+            }
+        }
+    }
+}

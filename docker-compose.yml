@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  web:
+    build: ./project
+    command: python3 ./project/main.py
+    expose:
+      - 8000
+    volumes:
+      - .:/code
+    ports:
+      - 8000:8000
+
+  nginx:
+    build: ./nginx
+    ports:
+      - 1234:80
+    depends_on:
+      - web
+    volumes:
+      - .:/code
