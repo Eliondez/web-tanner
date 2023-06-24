@@ -10,7 +10,7 @@ from copy import deepcopy
 app = Flask(__name__)
 
 
-@app.route("/get_weather")
+@app.route("/api/get_weather")
 def get_weather_view():
     weather_token = os.environ.get("WEATHER_API_TOKEN")
     uv_token = os.environ.get("UV_TOKEN")
@@ -115,4 +115,10 @@ class Engine:
 
 
 if __name__ == '__main__':
+    print('================Init tokens==================')
+    weather_token = os.environ.get("WEATHER_API_TOKEN")
+    uv_token = os.environ.get("UV_TOKEN")
+    print('weather_token', weather_token)
+    print('uv_token', uv_token)
+    print('==============End Init tokens================')
     app.run(host='0.0.0.0', port=8000)
